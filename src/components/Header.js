@@ -1,5 +1,6 @@
 import React from 'react'
 import {BrowserView} from 'react-device-detect';
+import { Link } from 'react-router-dom';
 
 import styles from '../styles/HeaderStyle.module.css'
 import logo from '../assets/SamplicationsLogo_Focus.webp' //SamplicationsLogo_Focus.png'
@@ -7,7 +8,7 @@ import logo from '../assets/SamplicationsLogo_Focus.webp' //SamplicationsLogo_Fo
 const Header = () => {
   return (
     <div>
-      <a href="/">
+      <Link to="/">
         <div class={styles.headerContent}>
           <BrowserView>
           <img class={styles.logo} src={logo} alt="Samplications Logo"/>
@@ -17,7 +18,7 @@ const Header = () => {
           </div>
           
         </div>
-      </a>
+      </Link>
     </div>
   )
 }

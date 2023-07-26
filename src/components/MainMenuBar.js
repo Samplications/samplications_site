@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import styles from "../styles/MainMenuBarStyle.module.css"
 
@@ -12,32 +13,40 @@ const MainMenuBar = () => {
     <div class={styles.menuContainer}>
         
             <div class={styles.menuItem}>
-                <a class={styles.links} href='/WebAppDev'>
+                <Link to='/WebAppDev'>
+                    <div class={styles.links}>
                     <img class={styles.image} src={code} alt="Website/app development"/>
                     <span class={styles.span}>Website/app<br/>development</span>
-                </a>
+                    </div>
+                </Link>
             </div>
 
         
             <div class={styles.menuItem}>
-            <a class={styles.links} href='/DroneServices'>
+            <Link to='/DroneServices'>
+            <div class={styles.links}>
                 <img class={styles.image} src={drone} alt="Drone services"/>
                 <span class={styles.span}>Drones services</span>
-                </a>
+                </div>
+                </Link>
             </div>
         
             <div class={styles.menuItem}>
-            <a class={styles.links} href='/CustomSolutions'>
+            <Link to='/CustomSolutions'>
+            <div class={styles.links}>
                 <img class={styles.image} src={electronics} alt="Custom hard- and software solutions"/>
                 <span class={styles.span}>Custom hard- and<br/>software solutions</span>
-                </a>
+                </div>
+                </Link>
             </div>
         
             <div class={styles.menuItem}>
-            <a class={styles.links} href='/SpacecraftConsulting'>
+            <Link to='/SpacecraftConsulting'>
+            <div class={styles.links}>
                 <img class={styles.image} src={satellite} alt="Satellite operations consulting"/>
                 <span class={styles.span}>Spacecraft operations<br/>consulting</span>
-                </a>
+                </div>
+                </Link>
             </div>
         
     </div>

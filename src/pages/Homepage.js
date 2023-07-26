@@ -1,5 +1,6 @@
 import React from 'react'
 import {BrowserView, MobileView} from 'react-device-detect';
+import { Link } from 'react-router-dom';
 
 import styles from '../styles/HomepageStyle.module.css'
 
@@ -25,13 +26,13 @@ const Homepage = () => {
           <div class={styles.overviewListItem}>
               
               <div class={styles.listItemImage}>
-              <a href="/WebAppDev"><img src={codePic} alt="code"/></a>
+              <Link to="/WebAppDev"><img src={codePic} alt="code"/></Link>
               </div>
 
               <div class={styles.listItemContent}>
                 <h3>Website and Android App Development</h3>
                 <p>In this digital age, having a strong online presence is vital for any business. Our skilled team of developers excels in crafting responsive and user-friendly websites and Android applications that captivate audiences and elevate brands. Whether you need a simple website or a complex e-commerce platform, we have the expertise to bring your vision to life.</p>
-                <a href="/WebAppDev"><p>Find out more... </p></a>
+                <Link to="/WebAppDev"><p>Find out more... </p></Link>
                 <br/>
               </div>
             </div>
@@ -42,25 +43,25 @@ const Homepage = () => {
               <div class={styles.listItemContent}>
               <h3>Drone Services</h3>
                 <p>Unmanned aerial vehicles (UAVs) have revolutionized various industries, from aerial photography and surveying to agricultural monitoring and infrastructure inspections. Our drone services provide actionable data and insights, enabling smarter decision-making and increased efficiency for your projects.</p>
-                <a href="/DroneServices"><p>Find out more... </p></a>
+                <Link to="/DroneServices"><p>Find out more... </p></Link>
                 <br/>
               </div>
               
                 <div class={styles.listItemImage}>
-                <a href="/DroneServices"><img src={bigDrone} alt="big drone"/></a>
+                <Link to="/DroneServices"><img src={bigDrone} alt="big drone"/></Link>
                 </div>
             </div>              
             </BrowserView>
             <MobileView>
             <div class={styles.overviewListItem}>
             <div class={styles.listItemImage}>
-                <a href="/DroneServices"><img src={bigDrone} alt="big drone"/></a>
+                <Link to="/DroneServices"><img src={bigDrone} alt="big drone"/></Link>
                 </div>
 
               <div class={styles.listItemContent}>
               <h3>Drone Services</h3>
                 <p>Unmanned Aerial Vehicles (UAVs) have revolutionized various industries, from aerial photography and surveying to agricultural monitoring and infrastructure inspections. Our drone services provide actionable data and insights, enabling smarter decision-making and increased efficiency for your projects.</p>
-                <a href="/DroneServices"><p>Find out more... </p></a>
+                <Link to="/DroneServices"><p>Find out more... </p></Link>
                 <br/>
               </div>
               
@@ -71,13 +72,13 @@ const Homepage = () => {
             <div class={styles.overviewListItem}>
               
               <div class={styles.listItemImage}>
-              <a href="/CustomSolutions"><img src={hardwarePic} alt="Electronics"/></a>
+              <Link to="/CustomSolutions"><img src={hardwarePic} alt="Electronics"/></Link>
               </div>
 
               <div class={styles.listItemContent}>
                 <h3>Custom Hard- and Software Solutions</h3>
                 <p>We understand that off-the-shelf solutions may not always align perfectly with your business requirements. That's why our experts thrive in developing tailor-made hardware and software solutions that are precisely engineered to meet your specific needs, ensuring seamless integration and enhanced performance.</p>
-                <a href="/CustomSolutions"><p>Find out more... </p></a>
+                <Link to="/CustomSolutions"><p>Find out more... </p></Link>
                 <br/>
               </div>
             </div>
@@ -89,25 +90,25 @@ const Homepage = () => {
               <div class={styles.listItemContent}>
                 <h3>Spacecraft Operations Consulting</h3>
                   <p>Venturing into space exploration requires meticulous planning and precise execution. Our spacecraft operations consulting services offer invaluable guidance and support to space missions, helping you navigate the complexities of space technology and operations successfully.</p>
-                  <a href="/SpacecraftConsulting"><p>Find out more... </p></a>
+                  <Link to="/SpacecraftConsulting"><p>Find out more... </p></Link>
                 <br/>
               </div>
 
                 <div class={styles.listItemImage}>
-                <a href="/SpacecraftConsulting"><img src={satellitePic} alt="Satellite in orbit"/></a>
+                <Link to="/SpacecraftConsulting"><img src={satellitePic} alt="Satellite in orbit"/></Link>
                 </div>
             </div>
             </BrowserView>
             <MobileView>
             <div class={styles.overviewListItem}>
             <div class={styles.listItemImage}>
-                <a href="/SpacecraftConsulting"><img src={satellitePic} alt="Satellite in orbit"/></a>
+                <Link to="/SpacecraftConsulting"><img src={satellitePic} alt="Satellite in orbit"/></Link>
                 </div>
 
               <div class={styles.listItemContent}>
                 <h3>Spacecraft Operations Consulting</h3>
                   <p>Venturing into space exploration requires meticulous planning and precise execution. Our spacecraft operations consulting services offer invaluable guidance and support to space missions, helping you navigate the complexities of space technology and operations successfully.</p>
-                  <a href="/SpacecraftConsulting"><p>Find out more... </p></a>
+                  <Link to="/SpacecraftConsulting"><p>Find out more... </p></Link>
                 <br/>
               </div>
 
@@ -119,21 +120,21 @@ const Homepage = () => {
 
           {/* <h3>Website and Android App Development</h3>
               <p>In this digital age, having a strong online presence is vital for any business. Our skilled team of developers excels in crafting responsive and user-friendly websites and Android applications that captivate audiences and elevate brands. Whether you need a simple website or a complex e-commerce platform, we have the expertise to bring your vision to life.</p>
-              <a href="/WebAppDev"><p>Find out more... </p></a>
+              <Link to="/WebAppDev"><p>Find out more... </p></Link>
 
             <h3>Drone Services</h3>
             <p>Unmanned aerial vehicles (UAVs) have revolutionized various industries, from aerial photography and surveying to agricultural monitoring and infrastructure inspections. Our drone services provide actionable data and insights, enabling smarter decision-making and increased efficiency for your projects.</p>
-            <a href="/DroneServices"><p>Find out more... </p></a>
+            <Link to="/DroneServices"><p>Find out more... </p></Link>
             <br/>
 
             <h3>Custom Hard- and Software Solutions</h3>
             <p>We understand that off-the-shelf solutions may not always align perfectly with your business requirements. That's why our experts thrive in developing tailor-made hardware and software solutions that are precisely engineered to meet your specific needs, ensuring seamless integration and enhanced performance.</p>
-            <a href="/CustomSolutions"><p>Find out more... </p></a>
+            <Link to="/CustomSolutions"><p>Find out more... </p></Link>
             <br/>
 
             <h3>Spacecraft Operations Consulting</h3>
             <p>Venturing into space exploration requires meticulous planning and precise execution. Our spacecraft operations consulting services offer invaluable guidance and support to space missions, helping you navigate the complexities of space technology and operations successfully.</p>
-            <a href="/SpacecraftConsulting"><p>Find out more... </p></a>
+            <Link to="/SpacecraftConsulting"><p>Find out more... </p></Link>
             <br/> */}
 
             <h2>Why choose us?</h2>
