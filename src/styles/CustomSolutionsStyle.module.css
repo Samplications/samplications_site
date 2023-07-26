@@ -1,0 +1,23 @@
+.imageHolder{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.imageHolder img{
+    width: 30%;
+    height: auto;
+    border-radius: 25px;
+    /* 
+    border-width: 5px;
+    border-style: solid;
+    border-color: #61892F; */
+}
+
+@media screen and (max-width: 1200px) {
+    .imageHolder img{
+        width: 95%;
+    }
+}

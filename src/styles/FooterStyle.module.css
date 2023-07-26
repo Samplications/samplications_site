@@ -1,0 +1,13 @@
+.foot{
+    background-color: #333;
+    text-align: end;
+    font-size: x-small;
+    color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.foot p{
+    margin:0
+}

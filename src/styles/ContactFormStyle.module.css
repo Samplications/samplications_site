@@ -1,0 +1,89 @@
+
+.contactForm{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  width: 60%;
+}
+  
+  .contactForm label{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Open Sans"
+  }
+
+
+  .contactForm input,
+  .contactForm textarea,
+  .contactForm button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: "Open Sans"
+  }
+  
+  .contactForm textarea {
+    resize: vertical;
+  }
+  
+  .contactForm button {
+    background-color: #86C232;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition-duration: 0.4s;
+    transition-duration: ease;
+  }
+  
+  .contactForm button:hover {
+    background-color: #61892F;
+    transition-duration: 0.4s;
+    transition-duration: ease;
+  }
+
+  .contactForm textarea,
+  .contactForm input {
+    border-radius: 10px;
+    outline: 2px solid #333;
+    border: 0;
+    background-color: #ffff;
+    outline-offset: 3px;
+    padding: 10px 1rem;
+
+    transition-duration: 0.25s;
+    transition-duration: ease;
+  }
+
+  .contactForm textarea:hover,
+  .contactForm input:hover {
+    outline: 2px solid #86C232;
+    transition-duration: 0.25s;
+    transition-duration: ease;
+  }
+
+  .contactForm textarea:focus,
+  .contactForm input:focus {
+    outline-offset: 5px;
+    outline: 2px solid #61892F;
+    transition-duration: 0.25s;
+    transition-duration: ease;
+  }
+  
+
+  @media screen and (max-width: 1200px) {
+    .contactForm{
+      flex-direction: column;
+      justify-content: start;
+    }
+  
+    .form{
+      width: 100%;
+    }
+  }

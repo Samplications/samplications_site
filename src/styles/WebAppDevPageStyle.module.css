@@ -1,0 +1,217 @@
+.cardholder{
+    width: 100%;
+    align-content: center;
+}
+
+.cardrow{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+}
+
+.card {
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+
+    margin: 5px;
+  }
+  
+  .cardInner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  
+  .card:hover .cardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .cardFront,
+  .cardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .cardFront {
+    background-color: #61892F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #61892F;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+  }
+  
+  .cardBack {
+    background-color: #86C232;
+    color: #333;
+    display: flex;
+    align-items: center;
+    border: 10px solid #86C232;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    transform: rotateY(180deg);
+  }
+
+  .processCards {
+    display: grid;
+    height: 300px;
+    place-items: start;
+  }
+  
+  .processCard4 {
+    background-color: #333333;
+    color: #dbdbdb;
+
+    border-radius: 15px;
+
+    width: calc((100% - 60px)/5);
+    height: 254px;
+    position: absolute;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .processCard1 {
+    background-color: #435F30;
+    color: #dbdbdb;
+
+    border-radius: 15px;
+
+    width: calc((100% - 60px)/5);
+    height: 254px;
+    position: absolute;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+
+    animation: slideout 1.5s forwards;
+  }
+
+  @keyframes slideout {
+    to { transform: translateX(100%); }
+  }
+  
+  .processCard2{
+    background-color: #547A31;
+    color: #dbdbdb;
+
+    border-radius: 15px;
+
+    width: calc((100% - 60px)/5);
+    height: 254px;
+    position: absolute;
+    left: calc((100% - 60px)/5 + 30px);    
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+    
+    animation: slideout 1.5s forwards;
+  }
+  
+  .processCard3 {
+    background-color: #669532;
+    color: #dbdbdb;
+
+    border-radius: 15px;
+
+    width: calc((100% - 60px)/5);
+    height: 254px;
+    position: absolute;
+    left: calc(calc(2*((100% - 60px)/5) + 30px));   
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+    
+    animation: slideout 1.5s forwards;
+  }
+
+  .processCard5 {
+    background-color: #de9e13;
+    color: #444444;
+
+    border-radius: 15px;
+
+    width: calc((100% - 60px)/5);
+    height: 254px;
+    position: absolute;
+    left: calc(calc(3*((100% - 60px)/5) + 30px));   
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+    
+    animation: slideout 1.5s forwards;
+  }
+  
+.cardContent{
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.cardContent h4{
+    margin: 7px;
+    font-size: large;
+}
+
+@media screen and (max-width: 1200px) {
+  .cardrow{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+  
+  .card {
+    width: 100%;
+    height: 200px;
+    perspective: 1000px;
+
+    align-self: center;
+    align-content: center;
+
+    margin: 5px;
+  }
+
+  .cardFront p{
+    align-self: center;
+    text-align: center;
+  }
+
+  .cardBack p{
+    align-self: center;
+    font-size: medium;
+  }
+
+  .processCard1 {
+    width: 100%;
+    height: 254px;
+    left: calc(100%*-1);
+  }
+  
+  .processCard2{
+    width: 100%;
+    height: 254px;
+    left: calc(100%*-1);
+  }
+  
+  .processCard3 {
+    width: 100%;
+    height: 254px;
+    left: calc(100%*-1);   
+  }
+
+  .processCard5 {
+    width: 100%;
+    height: 254px;
+    left: calc(100%*-1);
+  }
+  
+  .processCard4 {
+    width: 100%;
+    height: 254px;
+    left: 0;
+  }
+}
