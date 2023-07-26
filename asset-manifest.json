@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e594e97.css",
+    "main.js": "/static/js/main.7e2d5bd7.js",
+    "static/js/787.33ce27c4.chunk.js": "/static/js/787.33ce27c4.chunk.js",
+    "static/media/bigdrone.webp": "/static/media/bigdrone.9ca529e0cfc9aaf64ecd.webp",
+    "static/media/hardware2.webp": "/static/media/hardware2.a461235d09de9a54104f.webp",
+    "static/media/hardware_shopped.webp": "/static/media/hardware_shopped.0faaec71d6a0b76a1ac3.webp",
+    "static/media/satellite.webp": "/static/media/satellite.dd456a20143b0effc92d.webp",
+    "static/media/oscar_interface_test.webp": "/static/media/oscar_interface_test.28d27ba6ae809a4a302a.webp",
+    "static/media/prototype.webp": "/static/media/prototype.c1894d27d04676fc12ad.webp",
+    "static/media/ESA_control_room.webp": "/static/media/ESA_control_room.60f1cc75ef30b519fba5.webp",
+    "static/media/code_portrait.webp": "/static/media/code_portrait.80350c29af3ec5cc2866.webp",
+    "static/media/computer.webp": "/static/media/computer.691c0492bd43f4ae55e6.webp",
+    "static/media/SpaceApps.webp": "/static/media/SpaceApps.9cc2e656ccb9315f76b0.webp",
+    "static/media/electronics.webp": "/static/media/electronics.6e7fe163d873b0ebf590.webp",
+    "static/media/drone.webp": "/static/media/drone.eeff104621d6512780c6.webp",
+    "static/media/code.webp": "/static/media/code.5a0812e420a44debb352.webp",
+    "static/media/spacecraft.webp": "/static/media/spacecraft.d4168dc2f7542fcf8e0f.webp",
+    "static/media/SamplicationsLogo_Focus.webp": "/static/media/SamplicationsLogo_Focus.6944ce75a4982eec182e.webp",
+    "index.html": "/index.html",
+    "main.9e594e97.css.map": "/static/css/main.9e594e97.css.map",
+    "main.7e2d5bd7.js.map": "/static/js/main.7e2d5bd7.js.map",
+    "787.33ce27c4.chunk.js.map": "/static/js/787.33ce27c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e594e97.css",
+    "static/js/main.7e2d5bd7.js"
+  ]
+}
