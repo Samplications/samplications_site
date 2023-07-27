@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e594e97.css",
-    "main.js": "/static/js/main.e60fae50.js",
+    "main.css": "/static/css/main.fbc35db7.css",
+    "main.js": "/static/js/main.6fd447e4.js",
     "static/js/787.33ce27c4.chunk.js": "/static/js/787.33ce27c4.chunk.js",
     "static/media/bigdrone.webp": "/static/media/bigdrone.9ca529e0cfc9aaf64ecd.webp",
     "static/media/hardware2.webp": "/static/media/hardware2.a461235d09de9a54104f.webp",
@@ -14,17 +14,24 @@
     "static/media/computer.webp": "/static/media/computer.691c0492bd43f4ae55e6.webp",
     "static/media/SpaceApps.webp": "/static/media/SpaceApps.9cc2e656ccb9315f76b0.webp",
     "static/media/electronics.webp": "/static/media/electronics.6e7fe163d873b0ebf590.webp",
+    "static/media/scoreboard.webp": "/static/media/scoreboard.d2262f8bd77297274bbe.webp",
+    "static/media/heureca.webp": "/static/media/heureca.83916f7288e3360cfbfc.webp",
     "static/media/drone.webp": "/static/media/drone.eeff104621d6512780c6.webp",
     "static/media/code.webp": "/static/media/code.5a0812e420a44debb352.webp",
+    "static/media/tiktak.webp": "/static/media/tiktak.59a7c3e4a4f0ece2c492.webp",
     "static/media/spacecraft.webp": "/static/media/spacecraft.d4168dc2f7542fcf8e0f.webp",
+    "static/media/bucketlister.webp": "/static/media/bucketlister.c9d2c65497ed27d0a752.webp",
+    "static/media/mealpicker.webp": "/static/media/mealpicker.46f9fbc99981237b8778.webp",
+    "static/media/goalreacher.webp": "/static/media/goalreacher.a730ecdb83d07ef553f0.webp",
+    "static/media/pandapoints.webp": "/static/media/pandapoints.5ff5846cafa2a436faf1.webp",
     "static/media/SamplicationsLogo_Focus.webp": "/static/media/SamplicationsLogo_Focus.6944ce75a4982eec182e.webp",
     "index.html": "/index.html",
-    "main.9e594e97.css.map": "/static/css/main.9e594e97.css.map",
-    "main.e60fae50.js.map": "/static/js/main.e60fae50.js.map",
+    "main.fbc35db7.css.map": "/static/css/main.fbc35db7.css.map",
+    "main.6fd447e4.js.map": "/static/js/main.6fd447e4.js.map",
     "787.33ce27c4.chunk.js.map": "/static/js/787.33ce27c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e594e97.css",
-    "static/js/main.e60fae50.js"
+    "static/css/main.fbc35db7.css",
+    "static/js/main.6fd447e4.js"
   ]
 }
