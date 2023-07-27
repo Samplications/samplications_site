@@ -27,6 +27,7 @@ import HeurecaPage from "./pages/Apps/HeurecaPage";
 import MealPicker from "./pages/Apps/MealPicker";
 import PandaPointsTracker from "./pages/Apps/PandaPointsTracker";
 import TikTakPage from "./pages/Apps/TikTakPage";
+import AppsPage from "./pages/AppsPage";
 
 function App() {
   return (
@@ -48,7 +49,7 @@ function App() {
             <Route exact path="/CustomSolutions" element={<CustomSolutions />} />
             <Route exact path="/SpacecraftConsulting" element={<SpacecraftConsulting />} />
 
-            {/* Make a page with the overview of apps */}
+            <Route exact path="/Apps" element={<AppsPage />} /> 
             <Route exact path="/Apps/ScoreBoard" element={<ScoreBoardPage />} /> 
             <Route exact path="/Apps/BucketLister" element={<BucketListerPage />} /> 
             <Route exact path="/Apps/GoalReacher" element={<GoalReacherPage />} /> 

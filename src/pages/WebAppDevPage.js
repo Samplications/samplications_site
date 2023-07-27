@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {BrowserView, MobileView} from 'react-device-detect';
+import { Link } from 'react-router-dom';
 
 import styles from '../styles/WebAppDevPageStyle.module.css'
 
@@ -195,6 +196,15 @@ const WebAppDevPage = () => {
 
           </div>
           </MobileView>
+
+          <div>
+              <div>
+                <h3>Android App Development</h3>
+                <p>Besides apps we also can make basic android applications. Feel free to check out our <Link to="/Apps"> portofolio</Link> to get a sense of what we can do.</p>
+
+              </div>
+          </div>
+          <br/>
 
           </div>
             <ContactForm/>
