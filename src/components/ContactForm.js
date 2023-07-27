@@ -1,8 +1,24 @@
-import React from 'react'
+import React from 'react';
+import emailjs from '@emailjs/browser';
 
 import styles from "../styles/ContactFormStyle.module.css"
 
 const ContactForm = () => {
+
+ const sendEmail = (e) => {
+  
+  e.preventDefault(); // prevents the page from reloading when you hit “Send”
+
+   emailjs.sendForm('service_65d01zl', 'template_uqol1mj', e.target, 'kOvmC5bVWZLywIJxx')
+     .then((result) => {
+         // show the user a success message
+     }, (error) => {
+         console.log(error);
+     });
+     e.target.reset();
+     window.alert("Thank you for reaching out. Your message has been sent. We will get back to you as soon as possible");
+ };
+
   return (
     <div>
       <div class={styles.contactForm}>
@@ -13,7 +29,7 @@ const ContactForm = () => {
           <br/>
           <p>We will get back to you as soon as possible.</p>
         </div>
-                <form class={styles.form} action="mailto:samplications@gmail.com" method="post" enctype="text/plain">
+                <form class={styles.form} onSubmit={sendEmail}>
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name" placeholder='Type your name here...' required/>
 
