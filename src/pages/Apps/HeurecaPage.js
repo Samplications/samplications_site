@@ -2,24 +2,34 @@ import React from 'react'
 
 import styles from "../../styles/AppPageStyle.module.css"
 
+import heurecaLogo from "../../assets/heureca.webp"
+
 const HeurecaPage = () => {
   return (
     <div class="pageContent">
       <div class={styles.content}>
-        <h2 class={styles.content_title}>Heureca</h2>
-        <h2>About</h2>
-        <p>With this app you can keep track of the amount of hours you have worked and how much you should be payed by your boss.<br/>
-            <ul>
-                <li>You can set your wage in Settings and start adding your hours.</li>
-                <li>You can select the month you want the overview.</li>
-                <li>You can do it everywhere as long as there is an internet connection.</li>
-            </ul>
-            Heureca also has the possibility to change your hours, multiplier etc without any problem.<br/>
+        <div class={styles.topContent}>
+          <div>
+            <h2 class={styles.content_title}>Heureca</h2>
+            <h2>About</h2>
+            <p>With this app you can keep track of the amount of hours you have worked and how much you should be payed by your boss.<br/>
+                <ul>
+                    <li>You can set your wage in Settings and start adding your hours.</li>
+                    <li>You can select the month you want the overview.</li>
+                    <li>You can do it everywhere as long as there is an internet connection.</li>
+                </ul>
+                Heureca also has the possibility to change your hours, multiplier etc without any problem.<br/>
+                <br/>
+                It's so simple!!<br/>
+                <br/>
+                Big updates are on their way!</p>
+            <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.heurecav2">here</a></strong></p>
             <br/>
-             It's so simple!!<br/>
-             <br/>
-            Big updates are on their way!</p>
-        <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.heurecav2">here</a></strong></p>
+          </div>
+          <img src={heurecaLogo} alt='heureca logo'/>
+        </div>
+
+        <br/>
 
         <h2>Privacy policy</h2>
         <p>Sam Bammens built the Heureca app as an Ad Supported app. This SERVICE is provided by Sam Bammens at no cost and is intended for use as is.<br/>

@@ -2,22 +2,31 @@ import React from 'react'
 
 import styles from "../../styles/AppPageStyle.module.css"
 
+import goalreacherLogo from "../../assets/goalreacher.webp"
+
 const GoalReacherPage = () => {
   return (
     <div class="pageContent">
       <div class={styles.content}>
-        <h2 class={styles.content_title}>GoalReacher</h2>
-        <h2>About</h2>
-        <p>To achieve big things in life, you have to take small steps towards your goal.<br/>
+      <div class={styles.topContent}>
+          <div>
+            <h2 class={styles.content_title}>GoalReacher</h2>
+            <h2>About</h2>
+            <p>To achieve big things in life, you have to take small steps towards your goal.<br/>
+                <br/>
+                This app helps you achieve your goals!<br/>
+                It has a clean overview to keep track of all your life goals and with every goal you can sum up the steps you have to take in order to achieve the bigger goal.<br/>
+                <br/>
+                It will be a lot easier to have an overview on how to achieve your goals and we are not even speaking about the motivation you gain from seeing all the steps you have already taken.<br/>
+                <br/>
+                So what are you waiting for? Write down you goals and start pursuing them!!!</p>
+            <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.goalreacher">here</a></strong></p>
             <br/>
-            This app helps you achieve your goals!<br/>
-            It has a clean overview to keep track of all your life goals and with every goal you can sum up the steps you have to take in order to achieve the bigger goal.<br/>
-            <br/>
-            It will be a lot easier to have an overview on how to achieve your goals and we are not even speaking about the motivation you gain from seeing all the steps you have already taken.<br/>
-            <br/>
-            So what are you waiting for? Write down you goals and start pursuing them!!!</p>
-        <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.goalreacher">here</a></strong></p>
+          </div>
+          <img src={goalreacherLogo} alt='goalreacher logo'/>
+        </div>
 
+        <br/>
         <h2>Privacy policy</h2>
         <p>Sam Bammens built the GoalReacher app as an Ad Supported app. This SERVICE is provided by Sam Bammens at no cost and is intended for use as is.<br/>
             <br/>

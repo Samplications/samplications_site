@@ -2,17 +2,27 @@ import React from 'react'
 
 import styles from "../../styles/AppPageStyle.module.css"
 
+import mealpickerLogo from "../../assets/mealpicker.webp"
+
 const MealPicker = () => {
   return (
     <div class="pageContent">
       <div class={styles.content}>
-        <h2 class={styles.content_title}>Meal Selector</h2>
-        <h2>About</h2>
-        <p>Are you always in doubt about the things you want to eat? Let this app decide for you!!<br/>
-            You enter all the dishes you like, once you don't know what you want to eat you can just let the app decide in your place.<br/>
-            <br/>
-            It is simple, easy and very quick!!!</p>
-        <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.mealpicker">here</a></strong></p>
+        <div class={styles.topContent}>
+            <div>
+                <h2 class={styles.content_title}>Meal Selector</h2>
+                <h2>About</h2>
+                <p>Are you always in doubt about the things you want to eat? Let this app decide for you!!<br/>
+                    You enter all the dishes you like, once you don't know what you want to eat you can just let the app decide in your place.<br/>
+                    <br/>
+                    It is simple, easy and very quick!!!</p>
+                <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.mealpicker">here</a></strong></p>
+                <br/>
+              </div>
+            <img src={mealpickerLogo} alt='mealpicker logo'/>
+        </div>
+
+        <br/>
 
         <h2>Privacy policy</h2>
         <p>Sam Bammens built the Meal Selector app as an Ad Supported app. This SERVICE is provided by Sam Bammens at no cost and is intended for use as is.<br/>

@@ -2,32 +2,43 @@ import React from 'react'
 
 import styles from "../../styles/AppPageStyle.module.css"
 
+import scoreboardLogo from "../../assets/scoreboard.webp"
+
 const ScoreBoardPage = () => {
   return (
     <div class="pageContent">
       <div class={styles.content}>
-        <h2 class={styles.content_title}>Scoreboard</h2>
-        <h2>About</h2>
-        <p>Get together with all of your friends to play a game. <br/>
-            No limitations, no worries. Just time for some fun!!!<br/>
+        <div class={styles.topContent}>
+          <div>
+            <h2 class={styles.content_title}>Scoreboard</h2>
+            <h2>About</h2>
+            <p>Get together with all of your friends to play a game. <br/>
+                No limitations, no worries. Just time for some fun!!!<br/>
+                <br/>
+                There are no limits with this scoreboard app. You can add an infinite amount of players to keep track of so you don't have to exclude people.<br/>
+                You can easily keep track of the score when playing a game<br/>
+                It has a clean and simple design to enhance the user experience<br/>
+                <br/>
+                This app is espacially helpfull for card games, dart, boardgames, partygames, golfing...<br/>
+                If you can imagine it, this app can keep track of the score <br/>
+                <br/>
+                We have listed some of the functions here (you can find this in the app under help):<br/>
+                - Use the plus button to add a person<br/>
+                - Click on the +1 or -1 button to add or substract 1 point<br/>
+                - Click on the players name to delete a single player<br/>
+                - Click on a players points to add or substract multiple points<br/>
+                - Press "New game" to delete all players<br/>
+                - Use "Reset points" to set all points back to zero<br/>
+                
+                Very helpfull when playing all kind of games!</p>
+            <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.scoreboardv1">here</a></strong></p>
             <br/>
-            There are no limits with this scoreboard app. You can add an infinite amount of players to keep track of so you don't have to exclude people.<br/>
-            You can easily keep track of the score when playing a game<br/>
-            It has a clean and simple design to enhance the user experience<br/>
-            <br/>
-            This app is espacially helpfull for card games, dart, boardgames, partygames, golfing...<br/>
-             If you can imagine it, this app can keep track of the score <br/>
-            <br/>
-            We have listed some of the functions here (you can find this in the app under help):<br/>
-            - Use the plus button to add a person<br/>
-            - Click on the +1 or -1 button to add or substract 1 point<br/>
-            - Click on the players name to delete a single player<br/>
-            - Click on a players points to add or substract multiple points<br/>
-            - Press "New game" to delete all players<br/>
-            - Use "Reset points" to set all points back to zero<br/>
-            
-            Very helpfull when playing all kind of games!</p>
-        <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.scoreboardv1">here</a></strong></p>
+          </div>
+
+          <img src={scoreboardLogo} alt='scoreboard logo'/>
+        </div>     
+
+        <br/> 
 
         <h2>Privacy policy</h2>
         <p>Sam Bammens built the ScoreBoard (Multiple players) app as an Ad Supported app. This SERVICE is provided by Sam Bammens at no cost and is intended for use as is.<br/>

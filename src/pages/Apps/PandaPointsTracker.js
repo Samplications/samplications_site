@@ -2,19 +2,29 @@ import React from 'react'
 
 import styles from "../../styles/AppPageStyle.module.css"
 
+import pandapointsLogo from "../../assets/pandapoints.webp"
+
 const PandaPointsTracker = () => {
   return (
     <div class="pageContent">
       <div class={styles.content}>
-        <h2 class={styles.content_title}>Pandapoints Tracker</h2>
-        <h2>About</h2>
-        <p>Do you have some things you wanted to do with your friends?<br/>
-            Share your bucketlist with your friends and see who is also interested!<br/>
-        <br/>
-            This app makes it possible to have a bucketlist with a whole group of friends!<br/>
-            You can add a bucketlist item and your friends can let you know if they did it already or want to do it with you.<br/>
-            A very usefull app that can lead to great adventures or cosy evenings :)</p>
-        <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.bucketlisterv2">here</a></strong></p>
+          <div class={styles.topContent}>
+            <div>
+              <h2 class={styles.content_title}>Pandapoints Tracker</h2>
+              <h2>About</h2>
+              <p>Do you have some things you wanted to do with your friends?<br/>
+                  Share your bucketlist with your friends and see who is also interested!<br/>
+              <br/>
+                  This app makes it possible to have a bucketlist with a whole group of friends!<br/>
+                  You can add a bucketlist item and your friends can let you know if they did it already or want to do it with you.<br/>
+                  A very usefull app that can lead to great adventures or cosy evenings :)</p>
+              <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.bucketlisterv2">here</a></strong></p>
+              <br/>
+              </div>
+            <img src={pandapointsLogo} alt='pandapointstracker logo'/>
+        </div>     
+
+        <br/> 
 
         <h2>Privacy policy</h2>
         <p>Sam Bammens built the Pandapoints Tracker app as an Ad Supported app. This SERVICE is provided by Sam Bammens at no cost and is intended for use as is.<br/>

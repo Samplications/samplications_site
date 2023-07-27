@@ -2,19 +2,29 @@ import React from 'react'
 
 import styles from "../../styles/AppPageStyle.module.css"
 
+import bucketlistLogo from "../../assets/bucketlister.webp"
+
 const BucketListerPage = () => {
   return (
     <div class="pageContent">
       <div class={styles.content}>
-        <h2 class={styles.content_title}>BucketLister</h2>
-        <h2>About</h2>
-        <p>Do you have some things you wanted to do with your friends?<br/>
-            Share your bucketlist with your friends and see who is also interested!<br/>
+        <div class={styles.topContent}>
+          <div>
+            <h2 class={styles.content_title}>BucketLister</h2>
+            <h2>About</h2>
+            <p>Do you have some things you wanted to do with your friends?<br/>
+              Share your bucketlist with your friends and see who is also interested!<br/>
+            <br/>
+              This app makes it possible to have a bucketlist with a whole group of friends!<br/>
+              You can add a bucketlist item and your friends can let you know if they did it already or want to do it with you.<br/>
+              A very usefull app that can lead to great adventures or cosy evenings :)</p>
+            <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.bucketlisterv2">here</a></strong></p>
+            <br/>
+          </div>
+          <img src={bucketlistLogo} alt='bucketlist logo'/>
+        </div>
+
         <br/>
-            This app makes it possible to have a bucketlist with a whole group of friends!<br/>
-            You can add a bucketlist item and your friends can let you know if they did it already or want to do it with you.<br/>
-            A very usefull app that can lead to great adventures or cosy evenings :)</p>
-        <p><strong>Interested? Check it out <a href="https://play.google.com/store/apps/details?id=com.bammens.samme.bucketlisterv2">here</a></strong></p>
 
         <h2>Privacy policy</h2>
         <p>Sam Bammens built the BucketLister app as an Ad Supported app. This SERVICE is provided by Sam Bammens at no cost and is intended for use as is.<br/>
