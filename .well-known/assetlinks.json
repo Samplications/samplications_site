@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bammens.samme.scoreboardv1",
+    "sha256_cert_fingerprints":
+    ["07:DE:11:58:3E:F5:EB:67:F7:50:C9:92:E6:28:29:CD:65:7E:CA:0D:4E:06:60:AF:43:C8:B4:EB:95:4B:8D:89"]
+  }
+}]
